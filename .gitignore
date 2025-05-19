@@ -1,0 +1,11 @@
+AGENTS.md
+node_modules
+*.log
+dist
+.DS_Store
+tmp
+coverage
+/.cache
+reports
+dist-archive
+*.tmp
