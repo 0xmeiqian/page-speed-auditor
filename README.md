@@ -12,3 +12,7 @@ Planned features:
 
 No build or runtime required for this repo; code is intentionally lightweight and self-contained.
 
+Notes
+-----
+- Network calls are live; be mindful of rate limiting when testing.
+- Results are heuristic and meant for quick direction, not lab-grade precision.

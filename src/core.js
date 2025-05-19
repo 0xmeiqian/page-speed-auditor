@@ -18,6 +18,6 @@ export async function audit(url) {
     bytes,
     requests,
     suggestions,
+    fetchedAt: new Date(t1).toISOString(),
   };
 }
-
