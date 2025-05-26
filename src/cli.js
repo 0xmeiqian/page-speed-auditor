@@ -23,6 +23,7 @@ async function main() {
       console.log(`Time: ${result.timing.total.toFixed(1)} ms`);
       console.log(`Bytes: ${result.bytes}`);
       console.log(`Requests: ${result.requests}`);
+      console.log(`Fetched: ${result.fetchedAt}`);
       if (result.suggestions.length) {
         console.log('Suggestions:');
         for (const s of result.suggestions) console.log(`- ${s}`);
@@ -35,4 +36,3 @@ async function main() {
 }
 
 main();
-
