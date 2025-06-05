@@ -8,10 +8,10 @@
   },
   "scripts": {
     "lint": "node ./scripts/lint-stub.js",
-    "test": "node ./scripts/test-stub.js"
+    "test": "node ./scripts/test-stub.js",
+    "psa": "node ./src/cli.js"
   },
   "dependencies": {
     "node-fetch": "3.3.2"
   }
 }
-
