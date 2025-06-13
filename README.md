@@ -12,6 +12,11 @@ Planned features:
 
 No build or runtime required for this repo; code is intentionally lightweight and self-contained.
 
+Dev Setup
+---------
+- Use Node version from `.nvmrc`.
+- Install deps: `npm i` (only needed for `node-fetch`).
+
 Notes
 -----
 - Network calls are live; be mindful of rate limiting when testing.
